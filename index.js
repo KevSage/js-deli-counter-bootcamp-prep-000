@@ -1,4 +1,4 @@
-function takeANumber(firstName, katzDeliLine.length) {
+function takeANumber(firstName, katzDeli.length) {
 katzDeli.push(firstName);
 console.log(katzDeliLine);
 console.log('Welcome, ' + firstName + ". You are now number " + katzDeli.length + " in line.");
@@ -17,7 +17,7 @@ console.log(katzDeli);
 function currentLine (katzDeliLine) {
   var arr =[];
   for (let i = 0; i < katzDeliLine.length; i++) {
-    arr.push(i + 1 + ". " + katzDeliLine[i] + ",")
+    arr.push(i + 1 + ". " + katzDeliLine[i] + "",)
   }
   return ("The current line is " + )
 }
