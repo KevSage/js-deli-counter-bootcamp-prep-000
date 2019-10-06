@@ -9,5 +9,6 @@ function nowServing(katzDeliLine) {
   } else {
     var serving = katzDeliLine[0];
     katzDeliLine.shift();
+    return `Now serving ${serving}`;
   }
 }
