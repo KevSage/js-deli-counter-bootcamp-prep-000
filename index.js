@@ -13,11 +13,3 @@ console.log("There is nobody waiting to be served!");
 console.log(katzDeli);
  }
 }
-
-function currentLine (katzDeliLine) {
-  var arr =[];
-  for (let i = 0; i < katzDeliLine.length; i++) {
-    
-  }
-  return ("The current line is " + )
-}
