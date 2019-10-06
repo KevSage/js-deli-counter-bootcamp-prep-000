@@ -1,7 +1,7 @@
-function takeANumber(firstName, katzDeliLine.length) {
-katzDeli.push(firstName);
+function takeANumber(firstName, katzDeliLine) {
+katzDeliLine.push(firstName);
 console.log(katzDeliLine);
-console.log('Welcome, ' + firstName + ". You are now number " + katzDeli.length + " in line.");
+console.log('Welcome, ' + firstName + ". You are now number " + katzDeliLine.length + " in line.");
 }
 
 function nowServing(){
