@@ -1,4 +1,4 @@
-function takeANumber(firstName, katzDeli.length) {
+function takeANumber(firstName, katzDeliLine.length) {
 katzDeli.push(firstName);
 console.log(katzDeliLine);
 console.log('Welcome, ' + firstName + ". You are now number " + katzDeli.length + " in line.");
