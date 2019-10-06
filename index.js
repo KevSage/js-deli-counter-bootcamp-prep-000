@@ -1,7 +1,7 @@
-function takeANumber(firstName, katzDeliLine) {
-katzDeliLine.push(firstName);
+function takeANumber(firstName, katzDeli.length) {
+katzDeli.push(firstName);
 console.log(katzDeliLine);
-console.log('Welcome, ' + firstName + ". You are now number " + katzDeliLine.length + " in line.");
+console.log('Welcome, ' + firstName + ". You are now number " + katzDeli.length + " in line.");
 }
 
 function nowServing(){
@@ -12,4 +12,10 @@ console.log("There is nobody waiting to be served!");
 } else {
 console.log(katzDeli);
  }
+}
+
+function currentLine (katzDeliLine) {
+  var arr =[];
+  for (let i = 0; i < katzDeliLine.length; i++) 
+  return ("The current line is " + )
 }
